@@ -10,7 +10,20 @@ namespace Program1
     {
         static void Main(string[] args)
         {
-
+            int fno=0,cno=1,b=2,tno,fib;
+            Console.WriteLine("Enter the limit upto to display fibonacci");
+            fib=Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine(fno);
+            Console.WriteLine(cno);
+            for(;b<= fib;b++)
+                {
+             tno=fno+cno;
+            Console.writeline(tno);
+            fno=cno;
+            cno=tno;
         }
+    Console.ReadKey();
     }
+    
 }
+    }
