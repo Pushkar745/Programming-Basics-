@@ -18,7 +18,7 @@ namespace Program1
             for(;b<= fib;b++)
                 {
              tno=fno+cno;
-            Console.writeline(tno);
+            Console.WriteLine(tno);
             fno=cno;
             cno=tno;
         }
