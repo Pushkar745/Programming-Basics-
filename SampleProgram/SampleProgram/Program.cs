@@ -10,9 +10,8 @@ namespace SampleProgram
             Console.Write("Mymethod");
 
         }
-        static void Name :Mymethod()
-            {
-            }
+        
+            
         static void Main(string[] args)
         {
             Mymethod();
