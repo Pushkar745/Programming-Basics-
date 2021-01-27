@@ -6,23 +6,28 @@ using System.Threading.Tasks;
 
 namespace Polymorphism0
 {
+    /* Polymorphism means "many forms"
+     
+         Why And When To Use "Inheritance" and "Polymorphism"?
+- It is useful for code reusability: reuse fields and methods of an existing class when you create a new class.
+*/
     class Animal
     {
-        public void animalSound()
+        public virtual void animalSound()
         {
             Console.WriteLine("Animal Sound");
         }
     }
     class Dog :Animal
     {
-        public void dogsound()
+        public override void animalSound()
         {
             Console.WriteLine("Bow bOw");
         }
     }
     class Cat:Animal
     {
-        public void catSound()
+        public override void animalSound()
         {
             Console.WriteLine("Meow");
         }
@@ -34,10 +39,18 @@ namespace Polymorphism0
             Animal a = new Animal();
             Dog d = new Dog();
             Cat c = new Cat();
+            cat1 c1 = new cat1();
+            dog1 d1 = new dog1();
+            AnimalSound1 a1 = new AnimalSound1();
+            c1.As();
+            a1.As();
+            d1.As();
+                 Console.WriteLine();
+
             a.animalSound();
-            Console.WriteLine();
-            d.dogsound();
-            c.catSound();
+
+            d.animalSound();
+            c.animalSound();
             Console.ReadLine();
 
         }
