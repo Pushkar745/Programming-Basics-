@@ -8,6 +8,7 @@ namespace Polymorphism0
 {
     class AnimalSound1
     {
+
         public  void As()
         {
             Console.WriteLine("Sound of cat and Dog");
