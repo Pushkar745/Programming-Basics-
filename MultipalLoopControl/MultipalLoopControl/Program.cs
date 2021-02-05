@@ -15,7 +15,7 @@ namespace MultipalLoopControl
             int num;
             num = 100;
             small = large = 1;
-            for(i=2,j=num/2;(i<=num/2)&(j>=2);i++,j--)
+            for(i=2,j=num/2;(i<=num/2)&(j>=2);i++,j--)//i is control veriable
             {
                 if ((small == 1) & ((num % i) == 0))
                     small = i;
