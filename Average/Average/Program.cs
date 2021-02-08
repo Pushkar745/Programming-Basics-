@@ -12,7 +12,11 @@ namespace Average
         {
             int[] num = new int[12];
             int avg = 0;
-            num[0] = 99;
+            num[0] = 99; /* This is initializing of areey
+            in different way also
+            int[] num={99,10,100,18,78,23,63,9,87,49}
+             
+             */
             num[1] = 10;
             num[2] = 100;
             num[3] = 18;

@@ -10,26 +10,27 @@ namespace DemoProgram
     {
         static void Main(string[] args)
         {
-            double t0, t, v;
-            double c  ;
-            
-            double vpow;
-            Console.WriteLine("time in observers own frame of reference (rest time)");
-            t = Convert.ToInt32(Console.ReadLine());
+          //  double t0, t, v;
+//double c  ;
+            int k = 2;
+         //   double vpow;
+//Console.WriteLine("time in observers own frame of reference (rest time)");
+           // t = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine("time in observers own frame of reference (rest time)");
             //t0 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("the speed of the moving object");
-            v = Double.Parse(Console.ReadLine()); ;
-            Console.WriteLine("the speed of light in a vacuum");
-            c = Convert.ToInt32(Console.ReadLine());
-            vpow = Math.Pow(v, 2)/ Math.Pow(c, 2);
+//Console.WriteLine("the speed of the moving object");
+          //  v = Double.Parse(Console.ReadLine()); ;
+         //   Console.WriteLine("the speed of light in a vacuum");
+          //  c = Convert.ToInt32(Console.ReadLine());
+           // vpow = Math.Pow(v, 2)/ Math.Pow(c, 2);
           
-            t0 = t * Math.Sqrt(1-vpow);
-            Console.WriteLine("time observed in the other reference frame" + t0+"Us");
+          //  t0 = t * Math.Sqrt(1-vpow);
+//Console.WriteLine("time observed in the other reference frame" + t0+"Us");
+            Console.WriteLine(k++);
+            Console.WriteLine(++k);
             Console.ReadLine();
 
-
-            }
+        }
     }
     }
 
