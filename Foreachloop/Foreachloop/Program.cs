@@ -21,7 +21,9 @@ namespace Foreachloop
                 Console.WriteLine("Value is :" + x);
                 sum += x;
 
+                if (x == 4) break;
             }
+         
             Console.WriteLine("Summation: " + sum);
             Console.ReadLine();
         }
