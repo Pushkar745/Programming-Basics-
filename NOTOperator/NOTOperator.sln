@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1340
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NOTOperator", "NOTOperator\NOTOperator.csproj", "{AF41CFEF-621F-423C-B884-D1D60026234E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF41CFEF-621F-423C-B884-D1D60026234E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF41CFEF-621F-423C-B884-D1D60026234E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF41CFEF-621F-423C-B884-D1D60026234E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF41CFEF-621F-423C-B884-D1D60026234E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E9E42C53-AF47-4E21-9F74-450D5D551CE0}
+	EndGlobalSection
+EndGlobal
